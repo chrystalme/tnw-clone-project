@@ -262,7 +262,7 @@
 }
 
 .section__story-text {
-  margin-left: 80px;
+  margin-left: 100px;
   position: absolute;
 }
 
@@ -438,4 +438,63 @@
 .old_price {
   text-decoration-line: line-through;
   margin-right: 5px;
+}
+
+/* footer */
+.footer {
+  background-color: black;
+  bottom: 0;
+  left: 0;
+  position: relative;
+  width: 100%;
+}
+
+.footer__top {
+  background-color: #272727;
+  text-align: center;
+  width: 100%;
+}
+
+.footer__top-nav {
+  font-size: 20px;
+  list-style: none;
+  margin-bottom: 10px;
+  padding: 40px 10px;
+}
+
+.footer__top-nav a {
+  /* border-radius: 50%; */
+  background: #666;
+  padding: 2px;
+}
+
+.footer__top-nav i {
+  color: antiquewhite;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer__bottom {
+  color: #666;
+  padding: 40px 0 50px 0;
+}
+
+.footer__bottom p {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.footer__bottom a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+.footer__top-nav-sub {
+  padding-bottom: 50px;
+}
+
+.footer__top-nav-sub a {
+  color: #666;
+  margin-right: 5px;
+  text-decoration: none;
 }
