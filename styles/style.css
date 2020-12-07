@@ -238,3 +238,17 @@
   .section__story-flow {
     background-color: rgb(253, 152, 135);
   }
+
+  .section__story-flow h3 {
+    font-weight: bold;
+  }
+ 
+  .section__story-flow h5 {
+    color:#666;
+    font-size: 12px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-style: italic;
+    padding-bottom: 5px;
+  }
+ 
