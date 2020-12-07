@@ -677,25 +677,70 @@
 
 /* Section for latest news */
   .latest__news {
-    width: 80%;
-    /* margin: 50px 10px; */
+    width: 90%;
+    margin: 40px auto;
   }
 
   .latest__news-details {
     display: grid;
     grid-template-columns: repeat(4,1fr);
     margin-bottom: 5px;
-    column-gap: 10px;
   }
 
   .latest__news-item {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    flex-basis: 100%;
   }
 
   .latest__news-item img {
-    /* flex: 1; */
-    width: 235px;
+    flex: 1;
+    width: 100%;
+  }
+
+  /* Section Header */
+  .latest__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px auto 10px auto;
+    width: 90%;
+  }
+  .latest__nav .latest__header {
+    flex: 1;
+  }
+  
+  .aside__link {
+    margin: auto;
+  }
+  
+  .aside__link a {
+    color: orangered;
+    display: inline;
+    text-decoration: none;
+    border-right: 1px solid orangered;
+    margin-right: 5px;
+    padding-right: 5px;
+  }
+
+  /* Section story tablet */
+  .section__story {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .section__story-card {
+    width: 280px;
+  }
+
+  /* other news section for tablets */
+  .other__news {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    margin: auto;
   }
 }
 
