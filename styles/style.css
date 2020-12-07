@@ -351,15 +351,15 @@
 
 .other__news-under-note {
   display: flex;
-  background-color: bisque;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .other__news-under-note img {
-  width: 120px;
+  width: 96px;
 }
 
 .other__news-under-note a {
-  display: inline;
   text-decoration: none;
   color: #f42;
 }
@@ -367,7 +367,8 @@
 .under-note-text {
   flex: 1;
   color: #f42;
-  margin-left: 5px;
+  margin-left: 10px;
+  margin-top: 5px;
 }
 
 .under-note-text span {
@@ -498,3 +499,6 @@
   margin-right: 5px;
   text-decoration: none;
 }
+
+/* Media Queries */
+@media screen and (min-width:768px)
