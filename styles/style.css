@@ -595,7 +595,21 @@
   .cover {
     display: grid;
     grid-template-columns: 65% 35%;
-    grid-template-rows: 180px 180px;
+    grid-template-rows: 270px 270px;
     justify-content: space-around;
     width: 100%;
   }
+
+  .side__0 {
+    grid-row: 1 / 2;
+  }
+
+  .side__1 {
+    grid-column: 2/3;
+  }
+
+  .side__2 {
+
+  }
+
+}
