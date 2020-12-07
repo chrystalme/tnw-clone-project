@@ -252,3 +252,18 @@
     padding-bottom: 5px;
   }
  
+  .section__story-text {
+   margin-left: 80px;
+  }
+
+  .section__story_card h2 {
+  background-color: orangered;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  padding: 10px 100px;
+  color: antiquewhite;
+  }
+
+  .section__story-footnote {
+    color: #000;
+  }
