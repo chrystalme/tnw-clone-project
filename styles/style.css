@@ -684,9 +684,18 @@
   .latest__news-details {
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+    column-gap: 10px;
   }
 
-  
+  .latest__news-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .latest__news-item img {
+    /* flex: 1; */
+    width: 235px;
+  }
 }
 
