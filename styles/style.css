@@ -597,8 +597,9 @@
     position: relative;
     color: aliceblue;
     display: grid;
-    grid-template-columns: 65% 35%;
-    grid-template-rows: 270px 270px;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+   
   }
   
   .cover a {
@@ -611,6 +612,7 @@
     width: 98%;
     line-height: normal;
     position: relative;
+    height: 100%;
   }
   
   .cover__text {
@@ -630,7 +632,7 @@
       url("../images/pexels-cover.jpg") no-repeat;
     background-size: cover;
     width: 100%;
-    /* height: 400px; */
+     height: 400px; 
   }
   
   .side__1 {
@@ -643,7 +645,8 @@
       ),
       url("../images/pexels-cover-2.jpg") no-repeat;
     background-size: cover;
-    /* height: 200px; */
+    height: 200px;
+    background: cover;
   }
   
   .side__2 {
@@ -655,7 +658,7 @@
       ),
       url("../images/pexels-cover-3.jpg") no-repeat;
     background-size: cover;
-    /* height: 200px; */
+    height: 200px;
   }
   
   .cover__main h3 {
