@@ -91,3 +91,72 @@
   .fa-bars {
     color: orangered;
   }
+
+  /* cover story mobile */
+.cover {
+    margin-top: 60px;
+    position: relative;
+    color: aliceblue;
+  }
+  
+  .cover a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .cover__main {
+    margin: 10px auto 10px auto;
+    width: 98%;
+    line-height: normal;
+    height: 155px;
+    position: relative;
+  }
+  
+  .cover__text {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+  }
+  
+  .side__0 {
+    grid-row: 1;
+    background:
+      linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      url("../images/pexels-cover.jpg") no-repeat;
+    background-size: cover;
+  }
+  
+  .side__1 {
+    background:
+      linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      url("../images/pexels-cover-2.jpg") no-repeat;
+    background-size: cover;
+  }
+  
+  .side__2 {
+    background:
+      linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      url("../images/pexels-cover-3.jpg") no-repeat;
+    background-size: cover;
+  }
+  
+  .cover__main h3 {
+    font-style: italic;
+  }
+  
+  .cover__main h2 {
+    font-size: 20px;
+    font-weight: 700;
+  }
