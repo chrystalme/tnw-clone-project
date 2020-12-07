@@ -172,7 +172,7 @@
   }
   
   .latest__header {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-weight: 900;
   }
   
@@ -204,3 +204,25 @@
   .latest__news-item span {
     color: #666;
   }
+
+  /* Section Latest headlines */
+.latest__nav {
+    margin-bottom: 40px;
+  }
+  
+  .section__latest_header {
+    margin: 20px 20px;
+  }
+  
+  .aside__link {
+    margin: 10px 10px;
+  }
+  
+  .aside__link a {
+    color: orangered;
+    display: block;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+  
+  
