@@ -225,4 +225,16 @@
     text-decoration: none;
   }
   
+  /* Section story */
+  .section__story {
+   width: 90%;
+   margin: auto;
+  }
   
+  .section__story-card {
+   width: 100%;
+  }
+
+  .section__story-flow {
+    background-color: rgb(253, 152, 135);
+  }
