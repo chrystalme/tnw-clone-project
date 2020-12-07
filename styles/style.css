@@ -592,6 +592,7 @@
     display: none;
   }
 
+/* Section cover tablet version */
   .cover {
     margin-top: 10px;
     position: relative;
@@ -674,5 +675,18 @@
     grid-column: 2/3;
   }
 
+/* Section for latest news */
+  .latest__news {
+    width: 80%;
+    /* margin: 50px 10px; */
+  }
 
+  .latest__news-details {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-bottom: 20px;
+  }
+
+  
 }
+
