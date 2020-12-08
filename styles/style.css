@@ -767,9 +767,9 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 30px;
-    margin: auto;
-    margin-left: 50px;
-    width: 100%;
+    margin: 10px auto;
+    /* margin-left: 50px; */
+    /* width: 100%; */
   }
 
   .section__story-card {
@@ -784,6 +784,59 @@
     width: 90%;
     margin: auto;
   }
+  .container__other-news {
+    width: 90%;
+    /* margin: 40px auto; */
+  }
+  
+  /* Section__latest deals for tablets */
+  .section__latest-deals {
+    width: 90%;
+    margin: 20px auto;
+
+  }
+  
+  .latest__deals-header {
+    color: #f42;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .latest__deals {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .latest__deals img {
+    width: 250px;
+    margin-right: 10px;
+  }
+  
+  .latest__deals a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .latest__deals-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .latest__deals-details h5 {
+    color: #555;
+  }
+  
+  .old_price {
+    text-decoration-line: line-through;
+    margin-right: 5px;
+  }
+  
+  
 }
 
 /* Media for Large screen sizes */
