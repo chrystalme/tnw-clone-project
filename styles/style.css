@@ -8,6 +8,7 @@
   }
   main {
     width: 100%;
+    /* margin: auto; */
     /* background-color: grey; */
   }
   
@@ -180,6 +181,12 @@
     text-decoration: none;
     color: #f42;
   }
+
+  .latest__nav-header a {
+    text-decoration: none;
+    color: #f42;
+  }
+  
   
   .latest__news-item {
     display: flex;
@@ -602,7 +609,7 @@
     grid-template-rows: repeat(2, 1fr);
     row-gap: 10px;
     justify-content: space-between;
-    height: 500px;
+    height: 400px;
    
   }
   
@@ -680,7 +687,7 @@
 /* Section for latest news */
   .latest__news {
     width: 90%;
-    margin: 40px auto;
+    margin: auto;
   }
 
   .latest__news-details {
@@ -701,6 +708,28 @@
     width: 100%;
   }
 
+  .latest__header {
+    margin: 70px auto 20px auto;
+    font-weight: 900;
+  }
+  
+  .latest__header a {
+    text-decoration: none;
+    color: #f42;
+  }
+
+  .latest__nav-header {
+    margin: auto;
+    font-weight: 900;
+    flex: 1;
+  }
+
+  .latest__nav-header a {
+    text-decoration: none;
+    color: #f42;
+  }
+  
+
   /* Section Header */
   .latest__nav {
     display: flex;
@@ -710,14 +739,7 @@
     margin: 40px auto 10px auto;
     width: 90%;
   }
-  .latest__nav .latest__header {
-    flex: 1;
-  }
-  
-  .aside__link {
-    margin: 0;
-  }
-  
+   
   .aside__link a {
     color: orangered;
     display: inline;
@@ -734,7 +756,10 @@
   /* Section story tablet */
   .section__story {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+    margin: auto;
+    width: 80%;
   }
 
   .section__story-card {
