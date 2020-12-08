@@ -765,14 +765,15 @@
   /* Section story tablet */
   .section__story {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 10px;
-    margin: auto;
-    width: 80%;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    margin-left: 115px;
+    width: 100%;
   }
 
   .section__story-card {
-    width: 280px;
+    width: 100%;
+    margin-bottom: 20px;
   }
 
   /* other news section for tablets */
