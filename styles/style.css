@@ -509,7 +509,7 @@
 
 /* Media Queries */
 /* Medium screen */
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   /* header section */
   .header__black {
     background-color: #000;
@@ -765,9 +765,10 @@
   /* Section story tablet */
   .section__story {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 30px;
-    margin-left: 115px;
+    margin: auto;
+    margin-left: 50px;
     width: 100%;
   }
 
@@ -783,5 +784,10 @@
     width: 90%;
     margin: auto;
   }
+}
+
+/* Media for Large screen sizes */
+@media (min-width: 1024px){
+ 
 }
 
