@@ -947,5 +947,12 @@
     grid-template-columns: repeat(4, 1fr);
     column-gap: 10px;
   }
+
+  /* Section latest deals */
+  .latest__deals {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 50px;
+  }
 }
 
