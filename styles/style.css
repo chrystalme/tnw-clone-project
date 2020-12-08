@@ -779,14 +779,13 @@
   .section__story {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 30px;
-    margin: 10px auto;
-    /* margin-left: 50px; */
-    /* width: 100%; */
+    column-gap: 10px;
+    margin: 40px auto;
+    width: 100%;
   }
 
   .section__story-card {
-    width: 100%;
+    width: 90%;
     margin-bottom: 20px;
   }
 
@@ -819,11 +818,12 @@
   
   .latest__deals {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
   }
   
   .latest__deals img {
-    width: 300px;
+    width: 100%;
     /* margin-right: 10px; */
   }
   
@@ -944,8 +944,15 @@
 
   /* Section story Desktop */
   .section__story {
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    width: 90%;
+  }
+
+  .section__story-card {
+    width: 90%;
+    /* margin-bottom: 20px; */
   }
 
   /* Section latest deals */
@@ -953,6 +960,13 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 50px;
+  }
+}
+
+@media (min-width: 1200px){
+  .section__story {
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
   }
 }
 
