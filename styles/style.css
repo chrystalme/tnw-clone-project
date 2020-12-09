@@ -469,12 +469,13 @@ main {
 
 .footer__top-nav a {
   background: #666;
-  padding: 2px;
+  padding: 15px;
+  border-radius: 50%;
+  margin: 0 5px;
 }
 
 .footer__top-nav i {
   color: antiquewhite;
-  margin: 0 10px;
   text-decoration: none;
 }
 
@@ -486,6 +487,10 @@ main {
 .footer__bottom p {
   margin: 0 auto;
   width: 50%;
+}
+
+.footer__bottom img {
+  width: 50px;
 }
 
 .footer__bottom a {
@@ -763,14 +768,14 @@ main {
   /* Section story tablet */
   .section__story {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 10px;
-    margin: 40px auto;
-    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin: auto 20px;
+    width: 80%;
   }
 
   .section__story-card {
-    width: 90%;
+    width: 80%;
     margin-bottom: 20px;
   }
 
