@@ -1,0 +1,56 @@
+$font-stack: ARS Maquette, sans-serif;
+$width: 100%;
+$a: none;
+$img: 200px;
+
+body {
+  font: $font-stack;
+}
+header {
+  width: $width;
+}
+main {
+  width: $width;
+}
+img {
+    width: $img;
+}
+a {
+  text-decoration: $a;
+}
+
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+  }
+  a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+}
+
+$gradient: linear-gradient(
+  0deg,
+  rgba(0, 0, 0, 1) 0%,
+  rgba(124, 122, 122, 0) 100%
+);
+$repeat: no-repeat;
+
+.side_0{
+    background: $gradient, url("../images/pexels-cover.jpg") $repeat;
+}
+
+@mixin button($padding: 10px, $borderwidth: 5px, $color: (10% #f45)) {
+    border: $borderwidth solid  $color;
+    color: $color;    
+}
+
+button{
+    @include button()
+}
